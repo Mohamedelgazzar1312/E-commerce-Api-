@@ -1,0 +1,75 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.lContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center ;
+    gap: 15px;
+    padding-top: 200px;
+}
+.lInput{
+    height: 30px;
+    padding: 10px;
+}
+.lButton{
+    border: none;
+    padding: 10px 20px ;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+
+/* 
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    padding-top: 200px;
+  }
+  
+  .login-input {
+    height: 30px;
+    padding: 10px;
+    
+  }
+  
+  .login-button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-button:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  } */
+  
