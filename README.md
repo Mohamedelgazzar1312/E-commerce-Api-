@@ -1,9 +1,8 @@
-# E-commerce Website ASP.Net Core Web API
+# E-commerce Website ASP.Net Core Web API with React Client-Server
 
 ## Description
 
-This project is an e-commerce website built using ASP.Net Core Web API, Entity Framework Core, Identity Framework, and n-tier architecture. It implements DTOs, repositories, services, and controllers to create a well-structured and maintainable application.The client-server communication is facilitated using React.
-
+This project is an e-commerce website built using ASP.Net Core Web API, Entity Framework Core, Identity Framework, and n-tier architecture. It implements DTOs, repositories, services, and controllers to create a well-structured and maintainable application. The client-server communication is facilitated using React.
 
 ## Technologies
 
@@ -12,7 +11,6 @@ This project is an e-commerce website built using ASP.Net Core Web API, Entity F
 - **Identity Framework:** A framework for implementing user authentication and authorization.
 - **N-tier architecture:** A software design pattern that separates the application into multiple layers.
 - **React:** Used for the client-server communication.
-
 
 ## Layers
 
@@ -35,6 +33,7 @@ Services contain the business logic of the application. They use repositories to
 ## Controllers
 
 Controllers handle HTTP requests and responses. They use services from the BLL to process requests and return responses.
+
 
 ## Database Diagram
 ![Screenshot 2024-04-30 002657](https://github.com/Mohamedelgazzar1312/E-commerce-Api-/assets/153744543/1083698a-ad33-429e-9377-46fd33bc1d65)
